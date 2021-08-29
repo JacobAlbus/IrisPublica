@@ -6,12 +6,12 @@ const controller = class textGenerationDAO {
 
     let options = {
       pythonPath: 'python',
-      scriptPath: 'path',
+      scriptPath: '/var/app/current/dao/',
       args: [req.query.songLength, req.query.artist]
     };
     
     try {
-      PythonShell.run('/var/app/current/dao/text-generation/cli.py', options, function (err, results) {
+      PythonShell.run('text-generation/cli.py', options, function (err, results) {
         if (err) throw err;
         console.log('results: %j', results);
   
