@@ -5,7 +5,8 @@
 /frontend/.pnp
 /frontend/.pnp.js
 
-# /node_modules
+node_modules/
+.elasticbeanstalk/
 .env
 
 # testing
