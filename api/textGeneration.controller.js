@@ -8,14 +8,15 @@ const controller = class textGenerationDAO {
       args: [req.query.songLength, req.query.artist]
     };
 
-    PythonShell.run('dao/text-generation/cli.py', options, function (err, results) {
+    PythonShell.run('/var/app/current/dao/text-generation/cli.py', options, function (err, results) {
       if (err) throw err;
       console.log('results: %j', results);
 
       let response = {
         lyrics: results[0],
       }
-      res.json(response)
+
+      res.json(response);
     });
   }
 
