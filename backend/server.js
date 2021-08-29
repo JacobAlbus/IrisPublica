@@ -1,15 +1,33 @@
-import express from "express"
-import cors from "cors"
-import restaurants from "./api/restaurants.route.js"
-import textGeneration from "./api/textGeneration.route.js"
+import app from "./app.js"
+import mongodb from "mongodb"
+import dotenv from "dotenv"
+import RestaurantsDAO from "./dao/restaurantsDAO.js"
+import ReviewsDAO from "./dao/reviewsDAO.js"
 
-const app = express()
+// dotenv.config()
+// const MongoClient = mongodb.MongoClient
 
-app.use(cors())
-app.use(express.json())
+const port = 5000 || 8000
 
-app.use("/api/v1/restaurants", restaurants)
-app.use("/api/v1/text-generation", textGeneration)
-app.use("*", (req, res) => res.status(404).json({ error: "not found"}))
+// MongoClient.connect(
+//     process.env.REST_REVIEWS_DB_URI,
+//   {
+//     poolSize: 50,
+//     wtimeout: 2500,
+//     useNewUrlParse: true }
+//   )
+//   .catch(err => {
+//     console.error(err.stack)
+//     process.exit(1)
+//   })
+//   .then(async client => {
+//     await RestaurantsDAO.injectDB(client)
+//     await ReviewsDAO.injectDB(client)
+//     app.listen(port, () => {
+//       console.log(`listening on port ${port}`)
+//     })
+//   })
 
-export default app
+app.listen(port, () => {
+  console.log(`listening on port ${port}`)
+})
