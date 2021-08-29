@@ -10,6 +10,6 @@ app.use(express.json())
 
 app.use("/api/v1/restaurants", restaurants)
 app.use("/api/v1/text-generation", textGeneration)
-app.use("*", (req, res) => res.status(404).json({ error: "I like little boys"}))
+app.use("*", (req, res) => res.status(404).json({ error: "What's wrong with the file path!?!?!"}))
 
 export default app
