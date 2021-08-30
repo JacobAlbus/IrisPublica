@@ -53,7 +53,7 @@ const Home = props => {
       <div class='container p-3 mb-4' id="article">
         <Link to="/articles/text-generation">
           <div class='row justify-content-center mb-3'>
-            <img class="img-fluid" src="img/text-generation/thumbnail.jpeg" width='800' height='500'></img>
+            <img class="img-fluid" src="img/text-generation/articleCover.jpg" width='800' height='500'></img>
           </div>
         </Link>
         <h5 class='bold'> Text Generation: Song Lyrics | <small> 2021 </small></h5>
