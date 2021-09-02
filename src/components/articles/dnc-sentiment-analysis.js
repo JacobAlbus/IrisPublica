@@ -7,7 +7,7 @@ const dncAnalysis = props => {
     <h2>Media Bias in the 2020 Democratic Presidential Nominee Race</h2>
     <p><small>October 6th, 2020</small></p>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/candidates.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/candidates.jpg" alt="" width='1200' height='500'></img>
     </div>
     <div class="row">
       <p>In this post, I’m going to look at how the polarity and subjectivity of the language 
@@ -115,7 +115,7 @@ const dncAnalysis = props => {
       <p id="caption">Figure 1: Explicit Articles From Each Month.</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_1.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_1.jpg" alt="" width='1200' height='500'></img>
     </div>
 
     <div class="row">
@@ -134,14 +134,14 @@ const dncAnalysis = props => {
       <p id="caption">Figure 2: Polarity Over Time</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_2.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_2.jpg" alt="" width='1200' height='500'></img>
     </div>
 
     <div class="row">
       <p id="caption">Figure 3: Subjectivity Over Time</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_3.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_3.jpg" alt="" width='1200' height='500'></img>
     </div>
 
     <div class="row">
@@ -164,7 +164,7 @@ const dncAnalysis = props => {
       <p id="caption">Figure 4: Cumulative Sentiment</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_4.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_4.jpg" alt="" width='1200' height='500'></img>
     </div>
     
     <div class="row">
@@ -198,7 +198,7 @@ const dncAnalysis = props => {
       <p id="caption">Figure 5: Cumulative Subjectivity Frequency</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_5.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_5.jpg" alt="" width='1200' height='500'></img>
     </div>
 
     <div class="row">
@@ -214,7 +214,7 @@ const dncAnalysis = props => {
       <p id="caption">Figure 6: Cumulative Polarity Frequency</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_6.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_6.jpg" alt="" width='1200' height='500'></img>
     </div>
 
     <div class="row">
@@ -227,7 +227,7 @@ const dncAnalysis = props => {
       <p id="caption">Figure 7: Other Candidates in Article</p>  
     </div>
     <div class='row mb-3'>
-      <img src="/img/dnc-sentiment-analysis/fig_7.jpg" width='1200' height='500'></img>
+      <img src="/img/dnc-sentiment-analysis/fig_7.jpg" alt="" width='1200' height='500'></img>
     </div>
 
     <div class="row">

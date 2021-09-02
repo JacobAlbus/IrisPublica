@@ -7,7 +7,7 @@ const TextGeneration = props => {
     <h2>Text Generation Using Song Lyrics on Prediction Matrix</h2>
     <p><small>2021</small></p>
     <div class='row mb-3'>
-      <img src="/img/text-generation/articleCover.jpg" width='1200' height='500'></img>
+      <img src="/img/text-generation/articleCover.jpg" alt="" width='1200' height='500'></img>
     </div>
     <div class="row">
       <p>In this post, I’m going to look at how the polarity and subjectivity of the language 

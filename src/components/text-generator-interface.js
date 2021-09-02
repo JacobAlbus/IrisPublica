@@ -1,10 +1,10 @@
 import TextGenerationDataServices from "../services/text-generation-data-services"
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./articles/articles.css"
 
 const TextGeneratorInterface = props => {
 
-  const [lyrics, setLyrics] = useState("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua");
+  const [lyrics, setLyrics] = useState("Set how long you want the song to be in the Song Length input box and select the artist in the Artist box, or don't and use 50 word song length with Kanye West default");
   const [artist, setArtist] = useState("Kanye West")
   const [songLength, setSongLength] = useState(50);
 
