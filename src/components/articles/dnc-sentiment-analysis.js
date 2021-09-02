@@ -3,7 +3,7 @@ import "./articles.css"
 
 const dncAnalysis = props => {
   return (
-  <div class="container-fluid mb-3" id="nib">
+  <div class="container-fluid mb-3 mt-5" id="nib">
     <h2>Media Bias in the 2020 Democratic Presidential Nominee Race</h2>
     <p><small>October 6th, 2020</small></p>
     <div class='row mb-3'>

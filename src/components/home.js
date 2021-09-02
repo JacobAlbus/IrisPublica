@@ -5,8 +5,8 @@ const Home = props => {
 
   return (
 
-  <div class="row" id="home-page">
-    <div class="col-lg-3 me-3 ms-2 align-self-start" id="about"> 
+  <div class="row mt-5" id="home-page">
+    <div class="col-lg-3 pt-2 me-3 ms-2 align-self-start" id="about"> 
       <h3 align="center">About</h3>
       <p>IrisPublica is my personal website where I can document various projects
         I started (and sometimes finish). It is also a way for me to practice my web 
@@ -14,7 +14,7 @@ const Home = props => {
         computer science, technology, and anything else. You can contact me at my email 
         address: JacobAlbus20@gmail.com</p>
     </div>
-    <div class="col-lg-8" id="article-col">
+    <div class="col-lg-8 pt-2" id="article-col">
       <h3 align="center">Articles</h3>
       <div class='container p-3 mb-4' id="article">
         <Link to="/articles/dnc-sentiment-analysis">
@@ -30,7 +30,7 @@ const Home = props => {
             <img class="img-fluid" src="img/text-generation/articleCover.jpg" alt="" width='800' height='500'></img>
           </div>
         </Link>
-        <h5 class='bold'> Text Generation: Song Lyrics | <small> 2021 </small></h5>
+        <h5 class='bold'> Text Generation: Song Lyrics | <small> Sep 9, 2021 </small></h5>
       </div>
     </div>
   </div>

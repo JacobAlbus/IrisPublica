@@ -14,7 +14,7 @@ function App() {
     <html>
       <body>
         <div class="App">
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-expand navbar-dark bg-dark">
           <a href="/" className="navbar-brand ms-3">
             IrisPublica
           </a>
@@ -27,7 +27,7 @@ function App() {
           </div>
         </nav>
 
-        <div id="main">
+        <div class="mt-5" id="main">
           <Switch>
             <Route exact path={["/", "/home"]} component={Home} />
             <Route path="/articles/dnc-sentiment-analysis" component={dncAnalysis} />
