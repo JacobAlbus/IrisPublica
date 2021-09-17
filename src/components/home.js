@@ -12,7 +12,8 @@ const Home = props => {
         I started (and sometimes finish). It is also a way for me to practice my web 
         development skills and share any interesting results I find in data analysis, 
         computer science, technology, and anything else. You can contact me at my email 
-        address: JacobAlbus20@gmail.com</p>
+        address: JacobAlbus20@gmail.com. You can also checkout my 
+        <a id="git-link" href="https://github.com/JacobAlbus"> GitHub</a>. </p>
     </div>
     <div class="col-lg-8 pt-2" id="article-col">
       <h3 align="center">Articles</h3>
