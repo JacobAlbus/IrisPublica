@@ -13,8 +13,6 @@ const TextGeneratorInterface = props => {
       .then(response => {
         setLyrics(response.data.lyrics);
       });
-
-      console.log(songLength);
   }
 
   const updateSongLength = event => {

@@ -17,6 +17,7 @@ const Home = props => {
     </div>
     <div class="col-lg-8 pt-2" id="article-col">
       <h3 align="center">Articles</h3>
+
       <div class='container p-3 mb-4' id="article">
         <Link to="/articles/dnc-sentiment-analysis">
           <div class='row justify-content-center mb-3'>
@@ -25,6 +26,7 @@ const Home = props => {
         </Link>
         <h5 class='bold'> 2020 DNC Sentiment Analysis | <small> Oct 6, 2020 </small></h5>
       </div>
+
       <div class='container p-3 mb-4' id="article">
         <Link to="/articles/text-generation">
           <div class='row justify-content-center mb-3'>
@@ -33,6 +35,16 @@ const Home = props => {
         </Link>
         <h5 class='bold'> Text Generation: Song Lyrics | <small> Sep 9, 2021 </small></h5>
       </div>
+
+      <div class='container p-3 mb-4' id="article">
+        <Link to="/articles/jjba-strategy-game">
+          <div class='row justify-content-center mb-3'>
+            <img class="img-fluid" src="img/jjba-strategy-game/jjbaThumbnail.jpg" alt="" width='800' height='500'></img>
+          </div>
+        </Link>
+        <h5 class='bold'> JoJo's Bizzare Strategy Game | <small> Jan 19, 2022 </small></h5>
+      </div>
+
     </div>
   </div>
   );
