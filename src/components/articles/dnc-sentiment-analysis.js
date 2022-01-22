@@ -1,14 +1,16 @@
 import "./articles.css"
-// import candidates from "../../public/img/dnc-sentiment-analysis/candidates.jpg"
 
 const dncAnalysis = props => {
   return (
   <div class="container-fluid mb-3 mt-5" id="nib">
+    <div id="spacer">A</div>
+
     <h2>Media Bias in the 2020 Democratic Presidential Nominee Race</h2>
     <p><small>October 6th, 2020</small></p>
     <div class='row mb-3'>
       <img src="/img/dnc-sentiment-analysis/candidates.jpg" alt="" width='1200' height='500'></img>
     </div>
+
     <div class="row">
       <p>In this post, I’m going to look at how the polarity and subjectivity of the language 
         used by the media affected polling during the race for the 2020 Democratic Presidential 

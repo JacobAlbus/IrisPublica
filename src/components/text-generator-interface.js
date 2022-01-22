@@ -25,6 +25,7 @@ const TextGeneratorInterface = props => {
 
   return (
   <div class="container-fluid mb-3" id="nib">
+    <div id="spacer">A</div>
     <h2 class="mb-3">Text Generation Using Song Lyrics on Prediction Matrix</h2>
 
     <div class="row">

@@ -3,6 +3,8 @@ import "./articles.css"
 const jjbaStrategyGame = props => {
   return (
   <div class="container-fluid mb-3 mt-5" id="nib">
+    <div id="spacer">A</div>
+
     <h2>JoJo's Bizzare Strategy Game</h2>
     <p><small>Janurary 19th, 2022</small></p>
     <div class='row mb-3'>

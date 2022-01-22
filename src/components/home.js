@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import "./home.css"
 
 const Home = props => {
-
   return (
-
-  <div class="row mt-5" id="home-page">
-    <div class="col-lg-3 pt-2 me-3 ms-2 align-self-start" id="about"> 
+  <div class="row mt-5 d-flex align-items-stretch" id="home-page">
+    
+    <div class="col-lg-3 pt-2 me-3 ms-2 mt-2" id="about"> 
       <h3 align="center">About</h3>
       <p>IrisPublica is my personal website where I can document various projects
         I started (and sometimes finish). It is also a way for me to practice my web 
@@ -15,7 +14,8 @@ const Home = props => {
         address: JacobAlbus20@gmail.com. You can also checkout my 
         <a id="git-link" href="https://github.com/JacobAlbus"> GitHub</a>. </p>
     </div>
-    <div class="col-lg-8 pt-2" id="article-col">
+
+    <div class="col-lg-8 pt-2 mt-2" id="article-col">
       <h3 align="center">Articles</h3>
 
       <div class='container p-3 mb-4' id="article">

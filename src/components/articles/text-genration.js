@@ -2,9 +2,10 @@ import "./articles.css"
 import { Link } from "react-router-dom";
 
 const TextGeneration = props => {
-
   return (
   <div class="container-fluid mb-3 mt-5" id="nib">
+    <div id="spacer">A</div>
+
     <h2>Text Generation Using Song Lyrics on Prediction Matrix</h2>
     <p><small>September 9th, 2021</small></p>
     <div class='row mb-3'>
