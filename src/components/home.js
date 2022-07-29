@@ -45,6 +45,15 @@ const Home = props => {
         <h5 class='bold'> JoJo's Bizzare Strategy Game | <small> Jan 19, 2022 </small></h5>
       </div>
 
+      <div class='container p-3 mb-4' id="article">
+        <Link to="/articles/electric-car-map">
+          <div class='row justify-content-center mb-3'>
+            <img class="img-fluid" src="img/electric-car-price-map/thumbnail.jpg" alt="" width='800' height='500'></img>
+          </div>
+        </Link>
+        <h5 class='bold'> Electric Car Price Competitiveness | <small> Aug 31, 2022 </small></h5>
+      </div>
+
     </div>
   </div>
   );

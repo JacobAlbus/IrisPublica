@@ -1,4 +1,4 @@
-import "./articles.css"
+import "../../styles/articles.css"
 
 const jjbaStrategyGame = props => {
   return (

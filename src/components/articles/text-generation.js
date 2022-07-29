@@ -1,4 +1,4 @@
-import "./articles.css"
+import "../../styles/articles.css"
 import { Link } from "react-router-dom";
 
 const TextGeneration = props => {

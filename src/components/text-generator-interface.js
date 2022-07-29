@@ -1,6 +1,6 @@
 import TextGenerationDataServices from "../services/text-generation-data-services"
 import React, { useState } from "react";
-import "./articles/articles.css"
+import "../styles/articles.css"
 
 const TextGeneratorInterface = props => {
 

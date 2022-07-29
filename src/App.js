@@ -4,9 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Home from "./components/home"
 import dncAnalysis from "./components/articles/dnc-sentiment-analysis"
-import textGeneration from "./components/articles/text-genration"
+import textGeneration from "./components/articles/text-generation"
 import TextGeneratorInterface from "./components/text-generator-interface"
 import jjbaStrategyGame from "./components/articles/jjba-strategy-game";
+import electricCarMap from "./components/articles/electric-car-price-map";
 
 import "./App.css"
 
@@ -37,6 +38,7 @@ function App() {
             <Route path="/articles/dnc-sentiment-analysis" component={dncAnalysis} />
             <Route path="/articles/jjba-strategy-game" component={jjbaStrategyGame} />
             <Route path="/articles/text-generation" component={textGeneration} />
+            <Route path="/articles/electric-car-map" component={electricCarMap} />
             <Route path="/text-generator" component={TextGeneratorInterface} />
           </Switch>
         </div>
