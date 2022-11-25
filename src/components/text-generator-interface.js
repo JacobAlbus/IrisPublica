@@ -4,8 +4,8 @@ import "../styles/articles.css"
 
 const TextGeneratorInterface = props => {
 
-  // const [lyrics, setLyrics] = useState("Set how long you want the song to be in the Song Length input box and select the artist in the Artist box, or don't and use 50 word song length with Kanye West default");
-  const [lyrics, setLyrics] = useState("Backend is down indefinitley due to cost. Sorry.")
+  const [lyrics, setLyrics] = useState("Set how long you want the song to be in the Song Length input box and select the artist in the Artist box, or don't and use 50 word song length with Kanye West default");
+  // const [lyrics, setLyrics] = useState("Backend is down indefinitley due to cost. Sorry.")
   const [artist, setArtist] = useState("Kanye West")
   const [songLength, setSongLength] = useState(50);
 
@@ -45,7 +45,7 @@ const TextGeneratorInterface = props => {
         </select>
       </div>
       <div class="col">
-        <button type="button" class="btn btn-dark">Generate Lyrics</button>
+        <button type="button" class="btn btn-dark" onClick={GenerateLyrics}>Generate Lyrics</button>
       </div>
     </div>
 
