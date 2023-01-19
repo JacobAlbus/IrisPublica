@@ -46,12 +46,12 @@ const Home = props => {
       </div>
 
       <div class='container p-3 mb-4' id="article">
-        <Link to="/articles/electric-car-map">
+        <Link to="/articles/age-of-jojo">
           <div class='row justify-content-center mb-3'>
-            <img class="img-fluid" src="img/electric-car-price-map/thumbnail.jpg" alt="" width='800' height='500'></img>
+            <img class="img-fluid" src="img/age-of-jojo/age_of_jojo_thumbnail.png" alt="" width='800' height='500'></img>
           </div>
         </Link>
-        <h5 class='bold'> Electric Car Price Competitiveness | <small> Aug 31, 2022 </small></h5>
+        <h5 class='bold'> Age of Jojo | <small> Jan 18, 2023 </small></h5>
       </div>
 
     </div>

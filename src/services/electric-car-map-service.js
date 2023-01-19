@@ -30,7 +30,7 @@ export default class CarMap extends React.Component {
 
       svg.append("path")
           .attr("class", "county-borders")
-          .attr("d", path(topojson.mesh(us, us.objects.counties, function(a, b) { return a !== b; })));
+          .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
     }).catch(function(error) {
       if (error) throw error;
     });
