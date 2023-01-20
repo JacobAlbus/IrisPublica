@@ -12,10 +12,10 @@ const dncAnalysis = props => {
     </div>
 
     <div class="row">
-      <p>In this post, I’m going to look at how the polarity and subjectivity of the language 
+      <p>In this post, I'm going to look at how the polarity and subjectivity of the language 
         used by the media affected polling during the race for the 2020 Democratic Presidential 
-        Nominee. And I know, I’m a bit late as Joe Biden has already received the nomination, 
-        but this hasn’t stopped many democrats and leftists from attempting to invalidate his 
+        Nominee. And I know, I'm a bit late as Joe Biden has already received the nomination, 
+        but this hasn't stopped many democrats and leftists from attempting to invalidate his 
         nomination on the basis of unfair media bias. I have taken it upon myself to investigate 
         these claims and perform sentiment analysis, looking for polarity and subjectivity in text, 
         on the language the media used when reporting on the four democratic front-runners: Joe Biden, 
@@ -36,7 +36,7 @@ const dncAnalysis = props => {
         that still made their way into the dataset. Furthermore, I used Google News as its algorithm, 
         which is based on clicks and “publisher authority”, should mean that the 100 articles I gathered 
         are the 100 most relevant from that month and therefore the most representative of the media as 
-        a whole..</p>  
+        a whole.</p>  
     </div>
 
     <div class="row">
