@@ -54,6 +54,15 @@ const Home = props => {
         <h5 class='bold'> Age of Jojo | <small> Jan 18, 2023 </small></h5>
       </div>
 
+      <div class='container p-3 mb-4' id="article">
+        <Link to="/articles/factorized-baselines">
+          <div class='row justify-content-center mb-3'>
+            <img class="img-fluid" src="img/factorized-baselines/thumbnail.jpeg" alt="" width='800' height='500'></img>
+          </div>
+        </Link>
+        <h5 class='bold'> Literature Review: Factorized Action Dependent Baselines | <small> Mar 13, 2023 </small></h5>
+      </div>
+
     </div>
   </div>
   );
