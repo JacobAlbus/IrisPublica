@@ -134,7 +134,7 @@ const factorizedBaselines = props => {
       <p>
         This is the handout I created for my literature review assignment while taking Reinforcement learning
         at National Yang Ming Chiao Tung Univeristy (國立陽明交通大學) in Hsinchu, Taiwan. I give a review of 
-        <em>Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines</em> by Wu et. al.
+        <em> Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines</em> by Wu et. al.
         A copy can be found <a href="https://arxiv.org/abs/1803.07246">here</a>.
         </p>
     </div>
